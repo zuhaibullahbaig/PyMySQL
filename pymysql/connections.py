@@ -163,7 +163,6 @@ class Connection:
 
     def __init__(
         self,
-        *,
         user=None,  # The first four arguments is based on DB-API 2.0 recommendation.
         password="",
         host=None,
